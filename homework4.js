@@ -19,7 +19,7 @@ sumIPlay(1,5,3,4,5);
 // დავალება 2
 
 
-    function getCity(user) {
+    function cityFn(user) {
         const {banks: {adress: {city} = {}} = {} } = user;
         
         console.log(city)
